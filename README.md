@@ -1,6 +1,7 @@
 # Paperballots analysis
 ## Prerequesites
 - [Poetry](https://python-poetry.org)
+- [Tesseract](https://github.com/tesseract-ocr/tesseract)
 
 ## Setup
 - `poetry install`
