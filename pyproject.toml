@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "paperballots-parser"
+version = "0.1.0"
+description = ""
+authors = ["THIVEND <baptiste.thivend@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "paperballots_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-doctr = {extras = ["torch"], version = "^0.6.0"}
+pytesseract = "^0.3.10"
+Pillow = "^9.3.0"
+opencv-python = "^4.6.0.66"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
